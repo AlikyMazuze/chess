@@ -23,7 +23,7 @@ function Navbar({isMenuShowing, setIsMenuShowing}) {
                 <Image src="/logo.png" width={500} height={500} alt='Logo' className='h-16 w-16'/>
             </Link>
             <h1
-                className={cn('h-8 w-fit text-black dark:text-white font-bold hidden md:block', isMenuShowing && 'dark:text-black text-white')}
+                className={cn('h-8 w-fit text-black font-bold hidden md:block', isMenuShowing && 'text-white')}
             >
                 FEDERAÇÃO MOÇAMBICANA DE XADREZ
             </h1>
@@ -31,8 +31,8 @@ function Navbar({isMenuShowing, setIsMenuShowing}) {
         <div className='flex items-center gap-2'>
             <Link href="/contact" 
                 className={ cn(
-                    'p-1 px-2 text-sm font-semibold rounded-3xl dark:text-black text-white bg-black dark:bg-white bg-blend-difference',
-                    isMenuShowing && 'text-black dark:text-white dark:bg-black bg-white'
+                    'p-1 px-2 text-sm font-semibold rounded-3xl  text-white bg-black dark:bg-white bg-blend-difference',
+                    isMenuShowing && 'text-black  bg-white'
                     )}>Contacte-nos</Link>
             <Button className="bg-transparent hover:bg-transparent" onClick={()=> setIsMenuShowing(prev => !prev)}>    
                 <Equal 
