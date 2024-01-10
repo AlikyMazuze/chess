@@ -1,3 +1,4 @@
+'use client'
 // chessboard.js v1.0.0
 // https://github.com/oakmac/chessboardjs/
 //

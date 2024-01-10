@@ -135,33 +135,33 @@ export default function Home() {
       </section>
 
       <section className="lg:px-4 md:px-20 px-3">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
-          <div class="max-w-2xl" style={{opacity: 1, transform: "none"}}>
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
+          <div className="max-w-2xl" style={{opacity: 1, transform: "none"}}>
             <h2>
-              <span class="mb-6 block font-display text-base font-semibold text-neutral-950">
+              <span className="mb-6 block font-display text-base font-semibold text-neutral-950">
                 Projectos
               </span>
-              <span class="sr-only"> - </span>
-              <span class="block font-display tracking-tight [text-wrap:balance] text-4xl font-medium sm:text-5xl text-neutral-950">
+              <span className="sr-only"> - </span>
+              <span className="block font-display tracking-tight [text-wrap:balance] text-4xl font-medium sm:text-5xl text-neutral-950">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, eaque.
               </span>
             </h2>
-            <div class="mt-6 text-xl text-neutral-600">
+            <div className="mt-6 text-xl text-neutral-600">
               <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla, dolor commodi voluptatibus quasi quas optio hic consequuntur, asperiores accusantium numquam, quidem maiores? Libero, numquam accusamus minima reprehenderit eveniet assumenda in dolore voluptate, sit dolor consequatur harum quae molestiae, pariatur alias quam beatae earum! Mollitia, omnis! Illum dolore quaerat officiis.
               </p>
             </div>
           </div>
         </div>
-        <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
-          <div class="mx-auto max-w-2xl lg:max-w-none">
-            <div class="lg:flex lg:items-center lg:justify-end">
-              <div class="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
+          <div className="mx-auto max-w-2xl lg:max-w-none">
+            <div className="lg:flex lg:items-center lg:justify-end">
+              <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
                 <div
-                  class="w-[33.75rem] flex-none lg:w-[45rem]"
+                  className="w-[33.75rem] flex-none lg:w-[45rem]"
                   style={{opacity: 1, transform: "none"}}
                 >
-                  <div class="justify-center lg:justify-end relative flex aspect-[719/680] w-full">
+                  <div className="justify-center lg:justify-end relative flex aspect-[719/680] w-full">
                     <AutoPlayVideo/>
                   </div>
                 </div>
@@ -169,32 +169,32 @@ export default function Home() {
               <div>
                 <ul
                   role="list"
-                  class="text-base text-neutral-600 mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4"
+                  className="text-base text-neutral-600 mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4"
                 >
-                  <li class="group mt-10 first:mt-0">
+                  <li className="group mt-10 first:mt-0">
                     <div style={{opacity: 1, transform: "none"}}>
-                      <div class="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                        <strong class="font-semibold text-neutral-950">
+                      <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
+                        <strong className="font-semibold text-neutral-950">
                           Xadrez Nas Escolas.{" "}
                         </strong>
                         Projecto Desenvolvido a prior pelo elenco do Sr.Presidente Domingos langa , que visa implementar o Xadrez nas escolas como uma disciplina Curicular
                       </div>
                     </div>
                   </li>
-                  <li class="group mt-10 first:mt-0">
+                  <li className="group mt-10 first:mt-0">
                     <div style={{opacity: 1, transform: "none"}}>
-                      <div class="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                        <strong class="font-semibold text-neutral-950">
+                      <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
+                        <strong className="font-semibold text-neutral-950">
                           Xadrez Online.{" "}
                         </strong>
                         A Associaçao Provincial de Xadrez de Inhambane vem , deste os tempos de covid-19 efectuando campeonatos diarios de Xadrez , Online , Na plataforma Lichess.org com direiro a primiaçao , o que tem aumentando de uma forma significativa oo nivel de Xadrez em Moçambique
                       </div>
                     </div>
                   </li>
-                  <li class="group mt-10 first:mt-0">
+                  <li className="group mt-10 first:mt-0">
                     <div style={{opacity: 1, transform: "none"}}>
-                      <div class="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
-                        <strong class="font-semibold text-neutral-950">
+                      <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
+                        <strong className="font-semibold text-neutral-950">
                         Xadrez Pela Patria.{" "}
                         </strong>
                         Um Grupo de Amigos do Xadrez Juntaram-se e formaram o movimento Xadrez pela patria , ou seja , Chess for the fatherland , com o objectivo de aumentar no nivel de Xadrez e moçambique e o rating Nacional. O evento teve a sua primeira Ediçao na Katembe , Marisol , Onde pudemos ver muitos jogadores de diversos escaloes , e de diversas Provincias , sem contar com os estrangeiros.
@@ -228,7 +228,7 @@ function CampeonatosContainer() {
 
                       </span>
                       <img
-                        alt="FamilyFund"
+                        alt="Image"
                         loading="lazy"
                         width="36"
                         height="36"
@@ -241,7 +241,7 @@ function CampeonatosContainer() {
                     </Link>
                   </h3>
                   <p className="mt-6 flex gap-x-2 text-sm text-neutral-950">
-                    <time datetime="2023" className="font-semibold">
+                    <time dateTime="2023" className="font-semibold">
                       2023
                     </time>
                     <span className="text-neutral-300" aria-hidden="true">

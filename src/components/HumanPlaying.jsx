@@ -1,9 +1,13 @@
+'use client'
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import  Chess  from "chess.js"; // import Chess from  "chess.js"(default) if recieving an error about new Chess not being a constructor
 
-const STOCKFISH = window.STOCKFISH;
-const game = new Chess();
+let STOCKFISH;
+if (typeof window !== 'undefined') {
+  STOCKFISH = window.STOCKFISH;
+  
+}const game = new Chess();
 
 class Stockfish extends Component {
   static propTypes = { children: PropTypes.func };

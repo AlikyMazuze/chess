@@ -1,5 +1,11 @@
 import React from "react";
-import Chessboard from "chessboardjsx";
+
+import dynamic from 'next/dynamic';
+const Chessboard = dynamic(
+  () => import('chessboardjsx'),
+  { ssr: false }
+);
+
 import Stockfish from "./HumanPlaying";
 
 const VsAi = () => {

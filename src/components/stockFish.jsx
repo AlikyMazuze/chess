@@ -2,17 +2,23 @@
 
 import React, { useEffect, useState } from "react";
 import Chess from "chess.js";
-import Chessboard from "chessboardjsx";
+import dynamic from 'next/dynamic';
 
+const Chessboard = dynamic(
+  () => import('chessboardjsx'),
+  { ssr: false }
+);
 function RandomVsRandomGame() {
   const [fen, setFen] = useState("start");
 
   useEffect(() => {
+    if (typeof window == 'undefined') return;
+    console.log('Run') 
     const game = new Chess();
-    let timer = window.setTimeout(makeRandomMove, 1000);
+    let timer = setTimeout(makeRandomMove, 1000);
 
     return () => {
-      window.clearTimeout(timer);
+      clearTimeout(timer);
     };
 
     function makeRandomMove() {
@@ -25,7 +31,7 @@ function RandomVsRandomGame() {
       game.move(possibleMoves[randomIndex]);
       setFen(game.fen());
 
-      timer = window.setTimeout(makeRandomMove, 1000);
+      timer = setTimeout(makeRandomMove, 1000);
     }
   }, []);
 
