@@ -93,9 +93,9 @@ function Footer() {
                     <li className="mt-4">
                       <a
                         className="transition hover:text-neutral-950"
-                        href="https://twitter.com"
+                        href="https://www.linkedin.com/company/fmx_mz/"
                       >
-                        Twitter
+                        Linkedin
                       </a>
                     </li>
 

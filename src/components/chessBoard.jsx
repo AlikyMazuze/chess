@@ -12,7 +12,7 @@ const Chess = () => {
           :
         <RandomVsRandomGame />
       }
-      <button onClick={()=> setPlaying(prev => !prev)} className="btn text-white font-bold p-4 rounded-lg">
+      <button onClick={()=> setPlaying(prev => !prev)} className="btn text-white font-bold p-4 rounded-lg bg-zinc-800">
         {!playing ? "Faça um jogo"  : "Cancelar"}
       </button>
     </div>
