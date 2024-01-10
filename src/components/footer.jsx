@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-
+import Link from 'next/link'
 function Footer() {
   return (
     <footer className="mx-auto max-w-7xl px-6 lg:px-8 mt-24 w-full sm:mt-32 lg:mt-40">
@@ -51,21 +51,21 @@ function Footer() {
                   </div>
                   <ul role="list" className="mt-4 text-sm text-neutral-700">
                     <li className="mt-4">
-                      <a
+                      <Link
                         className="transition hover:text-neutral-950"
                         href="/aboutus"
                       >
                         Acerca
-                      </a>
+                      </Link>
                     </li>
 
                     <li className="mt-4">
-                      <a
+                      <Link
                         className="transition hover:text-neutral-950"
                         href="/contact"
                       >
                         Contacte
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -77,7 +77,7 @@ function Footer() {
                     <li className="mt-4">
                       <a
                         className="transition hover:text-neutral-950"
-                        href="https://facebook.com"
+                        href="https://facebook.com/fmxofical"
                       >
                         Facebook
                       </a>
@@ -85,7 +85,7 @@ function Footer() {
                     <li className="mt-4">
                       <a
                         className="transition hover:text-neutral-950"
-                        href="https://instagram.com"
+                        href="https://instagram.com/fmx.oficial"
                       >
                         Instagram
                       </a>
