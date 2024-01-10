@@ -31,12 +31,12 @@ function Navbar({isMenuShowing, setIsMenuShowing}) {
         <div className='flex items-center gap-2'>
             <Link href="/contact" 
                 className={ cn(
-                    'p-1 px-2 text-sm font-semibold rounded-3xl  text-white bg-black dark:bg-white bg-blend-difference',
+                    'p-1 px-2 text-sm font-semibold rounded-3xl  text-white bg-black  bg-blend-difference',
                     isMenuShowing && 'text-black  bg-white'
                     )}>Contacte-nos</Link>
             <Button className="bg-transparent hover:bg-transparent" onClick={()=> setIsMenuShowing(prev => !prev)}>    
                 <Equal 
-                    className={cn('h-8 w-8 text-black dark:text-white transition-all', isMenuShowing && 'dark:text-black text-white rotate-90')}/>
+                    className={cn('h-8 w-8 text-black  transition-all', isMenuShowing && ' text-white rotate-90')}/>
             </Button>
         </div>
     </nav>
