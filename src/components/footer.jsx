@@ -148,7 +148,7 @@ function Footer() {
                 <p className="fill-neutral-950 font-bold">FMX</p>
               </div>
             </a>
-            <p className="text-sm text-neutral-700">Federação Moçambicana de Xadrez. 2023</p>
+            <p className="text-sm text-neutral-700"><strong>Copyright</strong>&copy; {new Date().getFullYear()} FMX powered by <a href='https://portfoliomoz.com'>PortofolioMz</a></p>
           </div>
         </div>
       </div>
