@@ -15,4 +15,5 @@ const Stat = React.forwardRef(({Icon, Numb, Title, isDark, noNumb, containerClas
     )
 })
 
+Stat.displayName = "Stat"
 export default Stat

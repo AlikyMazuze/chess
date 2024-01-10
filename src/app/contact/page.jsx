@@ -58,9 +58,9 @@ function Page(){
                     <dd>
                       <a
                         className="text-neutral-600 hover:text-neutral-950"
-                        href="mailto:careers@studioagency.com"
+                        href="mailto:federacao@gmail.com"
                       >
-                        federacao@gamail.com
+                        federacao@gmail.com
                       </a>
                     </dd>
                   </div>
@@ -69,9 +69,9 @@ function Page(){
                     <dd>
                       <a
                         className="text-neutral-600 hover:text-neutral-950"
-                        href="mailto:press@studioagency.com"
+                        href="mailto:press@gmail.com"
                       >
-                        press@studioagency.com
+                        xadrez@gmail.com
                       </a>
                     </dd>
                   </div>

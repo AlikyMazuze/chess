@@ -17,7 +17,7 @@ function Footer() {
                     <li className="mt-4">
                       <a
                         className="transition hover:text-neutral-950"
-                        href="/work/family-fund"
+                        href="/"
                       >
                         Xadrez Online
                       </a>
@@ -25,7 +25,7 @@ function Footer() {
                     <li className="mt-4">
                       <a
                         className="transition hover:text-neutral-950"
-                        href="/work/unseal"
+                        href="/"
                       >
                         Xadrez nas Escolas
                       </a>
@@ -33,13 +33,13 @@ function Footer() {
                     <li className="mt-4">
                       <a
                         className="transition hover:text-neutral-950"
-                        href="/work/phobia"
+                        href="/"
                       >
                         Xadrez pela Pátria
                       </a>
                     </li>
                     <li className="mt-4">
-                      <a className="transition hover:text-neutral-950" href="/work">
+                      <a className="transition hover:text-neutral-950" href="/">
                         Ver todos <span aria-hidden="true">→</span>
                       </a>
                     </li>
@@ -53,7 +53,7 @@ function Footer() {
                     <li className="mt-4">
                       <a
                         className="transition hover:text-neutral-950"
-                        href="/about"
+                        href="/aboutus"
                       >
                         Acerca
                       </a>
